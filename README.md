@@ -8,7 +8,7 @@
 [![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue.svg)](https://code.visualstudio.com/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)s
 
-Compute the roots of a quadratic equation of the form \(ax^2 + bx + c = 0\). Supports real, repeated, and complex roots with simple, interactive CLI.
+Compute the roots of a quadratic equation of the form ( ax² + bx + c = 0 ). Supports real, repeated, and complex roots with simple, interactive CLI.
 
 </div>
 
@@ -43,13 +43,18 @@ This repository provides a minimal command-line quadratic equation calculator im
 - **Two implementations:** C (`qec.c`) and Python (`qec.py`).
 
 ## Math
-Discriminant: \(D = b^2 - 4ac\)
-- If \(D > 0\) → two real roots
-- If \(D = 0\) → one real (repeated) root
-- If \(D < 0\) → two complex roots
+**Discriminant:**  
+D = b² − 4ac  
 
-Roots: \(x = \frac{-b \pm \sqrt{D}}{2a}\)  
-For \(D < 0\): \(x = \frac{-b}{2a} \pm i\,\frac{\sqrt{|D|}}{2a}\)
+- If ( D > 0 ) → two real roots  
+- If ( D = 0 ) → one real (repeated) root  
+- If ( D < 0 ) → two complex roots  
+
+**Roots:**  
+x = (−b ± √D) / 2a  
+
+For D < 0:  
+x = −b / 2a ± i√|D| / 2a
 
 ## Quick Start (Windows)
 
