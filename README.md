@@ -6,7 +6,7 @@
 [![C](https://img.shields.io/badge/C-Programming-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![GCC](https://img.shields.io/badge/GCC-Compiler-brightgreen.svg)](https://gcc.gnu.org/install/binaries.html)
 [![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue.svg)](https://code.visualstudio.com/download)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)s
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Compute the roots of a quadratic equation of the form ( ax² + bx + c = 0 ). Supports real, repeated, and complex roots with simple, interactive CLI.
 
